@@ -1,0 +1,2 @@
+If python is set up, run: "python -m http.server" in this folder.
+Go to "http://localhost:8000/index.html"
