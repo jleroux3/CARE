@@ -33,16 +33,25 @@
 <br>
 Welcome to CARE!
 <hr>
-Login as Admin
-<div id="cbedda3000daf800161d36446cb5c7"><a href="http://www.caspio.com" target="_blank">Online Database</a> by Caspio</div>
-<script type="text/javascript" src="http://b5.caspio.com/scripts/e1.js"></script>
-<script type="text/javascript">try{f_cbload("edda3000daf800161d36446cb5c7","http:");}catch(v_e){;}</script>
-<div id="cxkg"><a href="http://b5.caspio.com/dp.asp?AppKey=edda3000daf800161d36446cb5c7">Click here</a> to load this Caspio <a href="http://www.caspio.com" title="Online Database">Online Database</a>.</div>
 <br>
-Login as Processor
-<div id="cbedda3000c756dcd6381b4b1688bf"><a href="http://www.caspio.com" target="_blank">Online Database</a> by Caspio</div>
-<script type="text/javascript" src="http://b5.caspio.com/scripts/e1.js"></script>
-<script type="text/javascript">try{f_cbload("edda3000c756dcd6381b4b1688bf","http:");}catch(v_e){;}</script>
-<div id="cxkg"><a href="http://b5.caspio.com/dp.asp?AppKey=edda3000c756dcd6381b4b1688bf">Click here</a> to load this Caspio <a href="http://www.caspio.com" title="Online Database">Online Database</a>.</div>
-<a href="password.htm">Forgot your password?</a>
+
+
+<form action="">
+<input type="radio" name="userType" value="Processor" id="user_Processor">Processor
+<input type="radio" name="userType" value="Administrator" id="user_Administrator">Administrator
+<br>
+<br>
+<button onClick="loginRedirect()" name="loginButton" style="color: rgb(68, 68, 68); font-size: 12px; font-family: &quot;Lato&quot;,Arial,sans-serif; font-weight: normal; text-transform: uppercase; text-align: center; min-width: 120px; padding: 7px 16px; margin: 0px 3px; display: inline-block; border: medium none; background-color: rgb(207, 226, 69);" onmouseover="cbButtonHover(this,'color: #FFFFFF;font-size: 12px;font-family: \'Lato\', Arial, sans-serif;font-weight: normal;text-transform: uppercase;text-align: center;min-width: 120px;padding: 7px 16px;margin: 0px 3px;display: inline-block;border: none;cursor: pointer;background-color: rgba(207,226,69,0.4);;');" onmouseout="cbButtonHover(this,'color: #444444;font-size: 12px;font-family: \'Lato\', Arial, sans-serif;font-weight: normal;text-transform: uppercase;text-align: center;min-width: 120px;padding: 7px 16px;margin: 0px 3px;display: inline-block;border: none;background-color: #CFE245;');" id="loginButton" type="button">Login</button>
+</form>
+
+<script type="text/javascript">
+function loginRedirect() {
+	if(document.getElementById('user_Processor').checked) {
+	  window.location.replace('/processorLogin.htm');
+	}else if(document.getElementById('user_Administrator').checked) {
+	  window.location.replace('/adminLogin.htm');
+	}
+}
+</script>
+
 </body></html>
