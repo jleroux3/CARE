@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BridgePackage>
+  <App Name="Application1" Version="1.0" GUID="AP25B92188FAAB4643B070B971549CAABD7DEB11EDDA300000080028000AEDDA30000001000010000000000000000000000000000000000000000000000000000000000000000015" Description="" FullApp="True" DataPackage="True" BridgeVersionCreated="8.4.1" BridgeVersionChanged="" ObjectDateCreated="2014-11-17T05:55:26" ObjectDateChanged="" ExportFormat="Data" AuthorID="EDDA3000">
+    <AppObjects>
+      <Object Type="TB" GUID="TB09D54BA1400D4FA29309EDAE654340BC7DEB11EDDA300000080028000AEDDA3000000100001000000000000000000000000000000000000000000000000000000000000000000F" Name="Tier1_Quarterly_Data" AppInitialSignature="EDDA300000010000" ObjectInitialSignature="EDDA300000010000" ObjectDateAdded="" BridgeVersionCreated="8.3.2" BridgeVersionChanged="8.4.1" ObjectDateCreated="2014-10-08T16:01:10" ObjectDateChanged="" DefaultImportAction="NEW" File="Tables_2014-Nov-17_1355.xls" DataDateUpdated="2014-11-16T17:53:10" FileType="MSExcelTables" />
+      <Object Type="TB" GUID="TBF4E3579BD88144E1952EE1EEC15A10CB7DEB11EDDA300000080028000AEDDA30000001000010000000000000000000000000000000000000000000000000000000000000000032" Name="Variable_Adjust" AppInitialSignature="EDDA300000010000" ObjectInitialSignature="EDDA300000010000" ObjectDateAdded="" BridgeVersionCreated="8.4.1" BridgeVersionChanged="8.4.1" ObjectDateCreated="2014-11-09T00:26:46" ObjectDateChanged="2014-11-17T00:02:39" DefaultImportAction="NEW" File="Tables_2014-Nov-17_1355.xls" DataDateUpdated="2014-11-15T16:25:02" FileType="MSExcelTables" />
+    </AppObjects>
+  </App>
+</BridgePackage>
